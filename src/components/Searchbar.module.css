@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    gap: 10px
+}
+
+.searchBar {
+    width : 100%;
+    border : none;
+    border-radius: 5px;
+    background-color: #ffffff96;; 
+    padding: 15px;
+}
+    
+.searchButton {
+    width: 80px;
+    border : none;
+    border-radius: 10px;
+    color: #8095ff;
+    background-color: white;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}

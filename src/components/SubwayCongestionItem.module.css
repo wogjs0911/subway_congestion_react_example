@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subwayLine {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+  
+.trainY {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+  
+.congestionTrain {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.congestionCar{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+  
+.congestionType {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
