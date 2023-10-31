@@ -14,11 +14,14 @@ export function Search() {
     const setInitData = () => {
         // ** 쿼리스트링 인자나 경로 인자를 추가해주긴 해야 한다.
         const data = fetchSubwayCongestion();
+
+        console.log(data);
         setSubwayCongestion(data);
     }
 
     useEffect(() => {
         setInitData();
+        
     }, [q]);
 
     return (
